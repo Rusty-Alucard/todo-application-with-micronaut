@@ -20,6 +20,7 @@ dependencies {
     implementation("io.micronaut:micronaut-jackson-databind")
     implementation("io.micronaut:micronaut-management")
     implementation("io.micronaut:micronaut-runtime")
+    implementation("io.micronaut.data:micronaut-data-jdbc")
     implementation("io.micronaut.flyway:micronaut-flyway")
     implementation("io.micronaut.graphql:micronaut-graphql")
     implementation("io.micronaut.kotlin:micronaut-kotlin-runtime")
