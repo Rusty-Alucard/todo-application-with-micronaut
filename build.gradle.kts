@@ -4,6 +4,7 @@ plugins {
     id("org.jetbrains.kotlin.plugin.allopen") version "1.6.10"
     id("com.github.johnrengelman.shadow") version "7.1.2"
     id("io.micronaut.application") version "3.3.2"
+    id("io.gitlab.arturbosch.detekt") version "1.20.0"
 }
 
 version = "0.1"
@@ -71,5 +72,8 @@ micronaut {
         annotations("todo.*")
     }
 }
-
-
+detekt {
+    config = files("detekt.yml")
+    buildUponDefaultConfig = true
+    autoCorrect = true
+}

@@ -1,0 +1,13 @@
+build:
+    maxIssues: 10
+    weights:
+      complexity: 2
+      LongParameterList: 1
+      comments: 0
+
+performance:
+  SpreadOperator:
+    active: false
+
+console-reports:
+  active: true
