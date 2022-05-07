@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: todo
+testFramework: kotest
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, flyway, graalvm, gradle, graphql, http-client, jackson-databind, jdbc-hikari, jooq, kotest, kotlin, kotlin-application, kotlin-build, logback, management, micronaut-build, mysql, netty-server, readme, shade, testcontainers, yaml]

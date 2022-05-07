@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: todoApplicationWithMicronaut
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/db
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: ''
+netty:
+  default:
+    allocator:
+      max-order: 3
