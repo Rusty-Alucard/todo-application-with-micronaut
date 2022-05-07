@@ -17,3 +17,6 @@ flyway:
   datasources:
     default:
       enabled: true
+graphql:
+  graphiql:
+    enabled: true
