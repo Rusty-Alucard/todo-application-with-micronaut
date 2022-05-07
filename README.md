@@ -48,3 +48,6 @@ https://micronaut.io/launch
 ```
 mn create-app --build=gradle_kotlin --jdk=11 --lang=kotlin --test=kotest --features=graphql,flyway,jooq,mysql,testcontainers,management,graalvm,data-jdbc todo.todo-application-with-micronaut
 ```
+
+## todo application
+https://guides.micronaut.io/latest/micronaut-graphql-todo-gradle-kotlin.html
