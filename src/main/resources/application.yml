@@ -7,6 +7,8 @@ datasources:
     driverClassName: com.mysql.cj.jdbc.Driver
     username: app
     password: app
+    dialect: MYSQL
+    schema-generate: NONE
 netty:
   default:
     allocator:
